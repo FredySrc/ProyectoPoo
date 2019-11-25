@@ -154,6 +154,13 @@ namespace VotoElectronico
         {
 
         }
+
+        private void btnAdministrador_Click(object sender, EventArgs e)
+        {
+            FrmRegistro frmRegistro = new FrmRegistro();
+            frmRegistro.ShowDialog();
+
+        }
     }
     
 }
